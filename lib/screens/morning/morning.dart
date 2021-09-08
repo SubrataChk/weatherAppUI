@@ -9,6 +9,15 @@ class Morning extends StatelessWidget {
     return Scaffold(
       backgroundColor: Color(0xffD3E0EA),
       appBar: AppBar(
+        actions: [
+          IconButton(
+              onPressed: () {},
+              icon: Icon(
+                Icons.search,
+                size: 35,
+                color: Colors.black,
+              ))
+        ],
         elevation: 0,
         centerTitle: true,
         title: Text(

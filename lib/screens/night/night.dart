@@ -9,6 +9,15 @@ class Night extends StatelessWidget {
     return Scaffold(
       backgroundColor: Color(0xff11052C),
       appBar: AppBar(
+        actions: [
+          IconButton(
+              onPressed: () {},
+              icon: Icon(
+                Icons.search,
+                size: 35,
+                color: Colors.white,
+              ))
+        ],
         elevation: 0,
         centerTitle: true,
         title: Text(
@@ -23,7 +32,7 @@ class Night extends StatelessWidget {
           },
           icon: Icon(
             Icons.arrow_back_ios_new,
-            color: Colors.redAccent,
+            color: Colors.white,
             size: 30,
           ),
         ),
